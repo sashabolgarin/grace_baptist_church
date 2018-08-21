@@ -1,0 +1,104 @@
+body {
+  font-family: 'Merriweather', serif!important;
+}
+
+p {
+  font-size: 18px;
+  color: #2F4550;
+}
+
+.logo {
+  height: 196px;
+  width: 139px;
+  background-image: url("../img/grace_logo.png");
+  background-position: center;
+  margin-top: 25px;
+}
+
+.button_header {
+  width: 260px;
+  height: 60px;
+  background-repeat: no-repeat;
+  float: right;
+  margin-top: 94px;
+  border: 3px solid #86A8E7;
+}
+
+.header_quote {
+  height: 63px;
+  width: 362px;
+  margin-top: 95px;
+}
+
+nav .nav_item {
+  font-size: 18px;
+  display: inline-block;
+  padding: 0 14px;
+}
+
+nav .nav_item>a {
+  color:#2F4550;
+}
+
+.nav_item>a:hover {
+  background-color: transparent!important;
+  color: #86A8E7;
+}
+
+nav {
+  padding-top: 7px;
+  padding-bottom: 30px;
+}
+
+.header_line {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  width: 65%;
+}
+
+div.slider {
+  background-image: url("../img/slider.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+  background-position-y:-70px;
+  position: relative;
+}
+
+.slider_content{
+  position: absolute;
+  top: 30%;
+  left: 35%;
+}
+
+.header_button {
+  font-size: 18px;
+  text-align: center;
+  display: block;
+  width: 100%;
+  padding: 19px 23px;
+  color: white;
+  background-image: linear-gradient(#7F7FD5, #86A8E7, #91EAE4);
+  border-radius: 30px;
+  text-decoration: none!important;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  -webkit-box-shadow: 2px 15px 30px -4px rgba(0,0,0,0.57);
+  -moz-box-shadow: 2px 15px 30px -4px rgba(0,0,0,0.57);
+  box-shadow: 2px 15px 30px -4px rgba(0,0,0,0.57);
+}
+
+.header_button:hover {
+  color: white;
+  background-image: linear-gradient(#7F7FD5, #86A8E7, #91EAE4);
+}
+
+.slider_content h3 {
+  font-weight: 700;
+  letter-spacing: 3px;
+  font-size: 48px;
+  color: #65655E;
+  margin-bottom: 30px;
+}
